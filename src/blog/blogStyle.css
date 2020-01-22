@@ -1,6 +1,29 @@
-.main-container {
-    border: 1px solid blue;
+h1 {
+    width: 60%;
+    margin: 5% auto
+}
+
+body {
+    background: lightgray;
+}
+
+main {
+    width: 60%;
+    margin: 5% auto
+}
+
+article {
+    margin: .5%;
+    border: 2px solid lightgray;
+    background: white;
+    padding: 2%;   
+}
+article > h3 {
+    font-size: 1em;
 }
 header {
-    border: 20px solid blue;
+    background: white;
+}
+head {
+    background: navy;`
 }
