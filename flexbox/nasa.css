@@ -1,0 +1,36 @@
+body {
+  width: 950px;
+  margin: 0 auto;
+
+}
+
+main {
+  margin: 20px auto;
+  height: 450px;
+  background: url(/ACA_web101_abram_sotelo/nasa.bg.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: lightgrey;
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  font-size: 75px;
+  padding-top: 15px;
+}
+
+section {
+  display: flex;
+  height: 324px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(224,222,222);
+}
+  
+section {
+  justify-content: space-evenly;
+  font-family: 'Fredoka One', cursive; 
+}
+  
+
+
