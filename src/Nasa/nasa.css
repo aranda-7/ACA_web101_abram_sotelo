@@ -7,7 +7,7 @@ body {
 main {
   margin: 20px auto;
   height: 450px;
-  background: url(/ACA_web101_abram_sotelo/nasa.bg.jpg); 
+  background: url(/src/images/nasa.bg.jpg); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
