@@ -61,9 +61,10 @@
  }
  main .portfolio-img img {
    height: 100%;
+   width: auto;
    border-radius: 45%;
-   display: flex;
  }
+
  main .portfolio-content {
    flex-direction: column;
  }
