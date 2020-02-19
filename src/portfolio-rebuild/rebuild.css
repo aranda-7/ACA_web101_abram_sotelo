@@ -11,8 +11,7 @@
    /* border: 2px solid red; */
    height: 100%;
    width: 100%;
-   display: flex;
-   flex-direction: column;
+   display: grid;
    font-family: 'Roboto Mono', monospace;
    background: rgb(19,18,20);
    color: ghostwhite;
@@ -42,14 +41,10 @@
    flex: 2;
    justify-content: space-between;
  }
- main{
-   /* border:1px solid pink; */
-   flex: 1;
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   padding: 0 20px 0 20px;
+  main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
  }
  main .portfolio {
    height: 300px;
@@ -61,12 +56,18 @@
  }
  main .portfolio-img img {
    height: 100%;
-   width: auto;
    border-radius: 45%;
+   display: grid;
+   grid-column: 1/2;
+   grid-row:  3/2
  }
 
  main .portfolio-content {
-   flex-direction: column;
+   display: grid;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding-bottom: 3em;
+
  }
  main .portfolio-content p:nth-of-type(1) {
    font-size: 34px;
@@ -75,23 +76,18 @@
    text-transform: uppercase;
    letter-spacing: 2.8;
  }
- main .portfolio-content button {
-   font-size: 16px;
-   margin: 20px 0 0;
-   border: 2px solid rgba(39, 36, 36, 0.729);
-   padding: 10px 20px;
-   border-radius: 20px;
-   background: ghostwhite;
+ .iframe-container{
+   display: grid;
+   grid-column: 1/2;
+   grid-row:  3/4;
  }
- main .portfolio-content button:hover {
-   box-shadow: 7px 9px 9px 0px rgb(68, 67, 67);
-   transform: translateY(-1px);
-   cursor: pointer;
- }
+ 
  footer{
    /* border:1px solid blue; */
    height: 50px;
    display: flex;
    justify-content: center;
    align-items: center;
+   background-color: black;
  }
+ 
