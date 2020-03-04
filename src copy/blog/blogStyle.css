@@ -1,0 +1,26 @@
+h1 {
+    width: 60%;
+    margin: 5% auto
+}
+
+body {
+    background: 
+}
+
+main {
+    width: 60%;
+    margin: 5% auto
+}
+
+article {
+    margin: .5%;
+    border: 2px solid lightgray;
+    background: white;
+    padding: 2%;   
+}
+article > h3 {
+    font-size: 1em;
+}
+header {
+    background: white;
+}

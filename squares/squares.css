@@ -1,0 +1,109 @@
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container:hover .square:nth-child(odd){
+  transform: scaleX(2);
+  transition: transform 0.5s ease;
+  
+}
+
+
+.main-container:hover .square:nth-child(even){
+  transform: rotate(-270deg);
+    transform: rotate(-360deg);
+  transition: transform 1s ease;  
+  transform: translateX(2);
+  transition: transform 0.5s ease;
+    width: 25px;
+    height: 25px;
+ 
+}
+
+.square-1 {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  margin: 20px;
+}
+
+.square-2 {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  margin: 20px;
+}
+
+.square-3 {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  margin: 20px;
+}
+
+.square-4 {
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+  margin: 20px;
+}
+
+.square-5 {
+  height: 50px;
+  width: 50px;
+  background-color: pink;
+  margin: 20px;
+}
+
+.square-6 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  margin: 20px;
+}
+
+.square-7 {
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+  margin: 20px;
+}
+
+.square-8 {
+  height: 50px;
+  width: 50px;
+  background-color: tan;
+  margin: 20px;
+}
+
+.square-9 {
+  height: 50px;
+  width: 50px;
+  background-color: brown;
+  margin: 20px;
+}
+
+.square-10 {
+  height: 50px;
+  width: 50px;
+  background-color: turquoise;
+  margin: 20px;
+}
+
+.square-11 {
+  height: 50px;
+  width: 50px;
+  background-color: burlywood;
+  margin: 20px;
+}
+
+.square-12 {
+  height: 50px;
+  width: 50px;
+  background-color: rebeccapurple;
+  margin: 20px;
+}
